@@ -1,0 +1,23 @@
+body {
+	background-color: #f1f1f1;
+}
+hr {
+	color: #40a798;
+	border-top: dotted 5px;
+	width: 3%;
+}
+h1 {
+	color: #40a798;
+	font-family: monospace, "Lucida Console";
+}
+h2 {
+		color: #40a798;
+		font-family: monospace, "Lucida Console";
+}
+h3 {
+	color: #40a798;
+	font-style: italic;
+}
+img {
+	background-color: red;
+}
