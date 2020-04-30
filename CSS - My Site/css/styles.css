@@ -28,15 +28,20 @@ h3 {
 }
 
 .middle-container {
-  background-color: #669b7c;
-  height: 200px;
-  width: 200px;
+
 }
 
 .bottom-container {
-  background-color: #557669;
-  height: 200px;
-  width: 200px;
+}
+
+.profile-img {
+  height: 250px;
+  width: 250px;
+}
+
+.skills-img {
+  height: 350px;
+  width: 650px;
 }
 
 .web {
