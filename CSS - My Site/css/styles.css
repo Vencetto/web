@@ -1,0 +1,56 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*-----------------------------Classes-----------------------------*/
+.top-container {
+  background-color: #f1f1f1;
+  height: 100%;
+  margin: 0;
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.middle-container {
+  background-color: #669b7c;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-container {
+  background-color: #557669;
+  height: 200px;
+  width: 200px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 570px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 570px;
+  bottom: 300px;
+}
