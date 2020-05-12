@@ -1,19 +1,26 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
+  line-height: 2;
   margin: 0;
   text-align: center;
 }
 
 h1 {
-  margin: 0;
+  font-size: 5.62rem;
+  margin: 50px auto 0 auto;
   font-family: 'Indie Flower', cursive;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;;
+  color: #66BFBF;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -50,12 +57,12 @@ h3 {
 
 .top-cloud {
   position: absolute;
-  right: 570px;
+  right: 30%;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 570px;
+  left: 30%;
   bottom: 300px;
 }
