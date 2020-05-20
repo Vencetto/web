@@ -24,6 +24,12 @@ h3 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+hr {
+  color: #40a798;
+	border-top: dotted 5px;
+	width: 3%;
+}
+
 /*-----------------------------Classes-----------------------------*/
 
 .bottom-cloud {
@@ -33,6 +39,23 @@ h3 {
 }
 
 .bottom-container {
+  background-color: #f1f1f1;
+}
+
+.btn {
+  background-color: #66BFBF;
+  padding: 10px 24px;
+  color: white;
+}
+
+.code-img {
+  float: left;
+  margin-right: 30px;
+  width: 15%;
+}
+
+.footer-link {
+  text-decoration: none;
 }
 
 .middle-container {
@@ -44,15 +67,22 @@ h3 {
   width: 250px;
 }
 
-.skills-img {
-  height: 350px;
-  width: 650px;
-}
-
-.skill-row{
-	margin: 30px auto 50px auto;
+.skill-row-left{
+	margin: 50px auto 80px auto;
+  line-height: 2;
 	text-align: left;
 	width: 50%;
+}
+
+.skill-row-right{
+	margin: 30px auto 50px auto;
+  line-height: 2;
+	text-align: right;
+	width: 50%;
+}
+
+.no-bottom {
+  margin-bottom: 0;
 }
 
 .top-cloud {
@@ -72,4 +102,10 @@ h3 {
 
 .web {
   text-decoration: underline;
+}
+
+.web-img {
+  float: right;
+  margin-left: 30px;
+  width: 15%;
 }
