@@ -27,10 +27,28 @@ h3 {
 hr {
   color: #40a798;
 	border-top: dotted 5px;
+  margin: 100px auto 100px auto;
 	width: 3%;
 }
 
 /*-----------------------------Classes-----------------------------*/
+.a-big {
+  color: #40a798;
+  font-size: 20px;
+}
+
+.a-big:hover {
+  border-radius: 12px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px 24px;
+}
+
+.bio {
+  width: 50%;
+  margin: auto;
+
+}
 
 .bottom-cloud {
   position: absolute;
@@ -39,13 +57,22 @@ hr {
 }
 
 .bottom-container {
-  background-color: #f1f1f1;
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding: 30px 0 6px;
 }
 
 .btn {
   background-color: #66BFBF;
+  border-radius: 8px;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 10px 24px;
   color: white;
+}
+
+.btn:hover {
+  background-color: #40a798;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .code-img {
@@ -54,11 +81,31 @@ hr {
   width: 15%;
 }
 
+.contact-me {
+  margin-bottom: 30px;
+}
+
+.contact-message {
+  margin: 30px auto 30px;
+  width: 50%;
+}
+
+.copyright {
+  color: #f1f1f1;
+  font-size: 0.75rem;
+  padding-top: 6px;
+}
+
 .footer-link {
   text-decoration: none;
 }
 
 .middle-container {
+  padding-top: 50px;
+}
+
+.profile {
+  padding-bottom: 40px;
 }
 
 .profile-img {
@@ -81,8 +128,7 @@ hr {
 	width: 50%;
 }
 
-.no-bottom {
-  margin-bottom: 0;
+.top-space {
 }
 
 .top-cloud {
