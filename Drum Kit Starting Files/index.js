@@ -3,13 +3,26 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 
     let content = this.textContent;
     makeSound(content);
+    buttonAnimation(content);
 
   });
 }
 
 document.addEventListener("keydown", function(e) {
   makeSound(e.key);
+  buttonAnimation(e.key);
 });
+
+function buttonAnimation(currentKey) {
+  var activeButton = document.querySelector("." + currentKey);
+  if (activeButton) {
+    activeButton.classList.add("pressed");
+
+    setTimeout(function() {
+      activeButton.classList.remove("pressed");
+    }, 150);
+  }
+}
 
 function makeSound(input){
   let audio;
